@@ -5,6 +5,11 @@ function addElem(one, two, three, four, five) {
   randomId = `childDiv_${randomId}`;
   newDiv.id = randomId;
   newDiv.className = "childDiv";
+
+  let color = Math.floor(Math.random() * 16777215).toString(16);
+  color = `#${color}`;
+  newDiv.style.background = color; //Apn chahe to apne acc color as a param bhi de skte hai
+
   document.body.appendChild(newDiv);
   let para1 = document.createElement("p");
   para1.innerHTML = one;
