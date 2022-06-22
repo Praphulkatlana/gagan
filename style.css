@@ -1,0 +1,39 @@
+h1{
+    color: red;
+}
+
+#MainDiv{
+    /* width: 80vh;
+    height: 50vh; */
+    background-color: aqua;
+    position: absolute;
+}
+
+.childDiv{
+    width: 500px;
+    height: 300px;
+    background-color: greenyellow;
+    margin-bottom: 20px;
+}
+.lefttop{
+    position: absolute;
+color: brown;
+}
+.righttop{
+    position: absolute;
+    margin-left: 450px;
+}
+.bottomleft{
+    position: absolute;
+    margin-top: 280px;
+}
+.bottomright{
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 450px;
+}
+.center{
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 220px;
+}
